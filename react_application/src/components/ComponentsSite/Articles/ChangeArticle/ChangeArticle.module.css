@@ -1,0 +1,9 @@
+.AddArticleSuccess {
+    color: #5d922f;
+    text-align: center;
+}
+
+.AddArticleError {
+    color: #c11616;
+    text-align: center;
+}

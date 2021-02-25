@@ -1,0 +1,43 @@
+.Sidebar {
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 0;
+
+    width: 15%;
+    min-height: 100vh;
+    padding-top: 70px;
+
+
+    background: #eee;
+    border-right: 1px solid #ccc;
+}
+
+.Sidebar ul {
+    min-height: 100%;
+    margin: 0;
+    padding: 20px 10px 10px 20px;
+
+    list-style: none;
+    font-size: 20px;
+}
+
+.Sidebar ul li {
+    margin: 30px 0 0 0;
+
+    color: #999;
+}
+
+
+.Sidebar ul li a {
+    color: #444;
+    text-decoration: none;
+}
+
+.Sidebar ul li a:hover {
+    color: #CC0000;
+}
+
+.selected {
+    color: #CC0000;
+}

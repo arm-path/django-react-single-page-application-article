@@ -1,0 +1,96 @@
+.Input {
+    margin-bottom: 3%;
+}
+
+.Input label {
+    display: block;
+
+    margin-bottom: 1.5%;
+
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.Input input {
+    display: block;
+    box-sizing: border-box;
+
+    width: 100%;
+    padding: 1.5%;
+
+    font-size: 1.2em;
+    outline: none;
+    border: 1px solid #bababa;
+}
+
+.Input textarea {
+    display: block;
+    box-sizing: border-box;
+
+    width: 100%;
+    padding: 1.5%;
+
+    font-size: 1.2em;
+    outline: none;
+    border: 1px solid #bababa;
+}
+.textarea{
+    resize: vertical;
+}
+
+.Input input:active, .Input input:focus {
+    border-bottom: 2px solid #2b2a29;
+}
+
+.Input span {
+    font-size: 0.6em;
+    color: #c11616;
+}
+
+.Input.invalid label {
+    color: #c11616;
+}
+
+
+@media (max-width: 1000px) {
+    .Input label {
+        font-size: 1.2em;
+    }
+
+    .Input input {
+        font-size: 1.2em;
+    }
+
+    .Input textarea {
+        font-size: 1.2em;
+    }
+
+}
+
+@media (max-width: 800px) {
+    .Input label {
+        font-size: 1em;
+    }
+
+    .Input input {
+        font-size: 1em;
+    }
+
+    .Input textarea {
+        font-size: 1em;
+    }
+}
+
+@media (max-width: 550px) {
+    .Input label {
+        font-size: 0.8em;
+    }
+
+    .Input input {
+        font-size: 0.8em;
+    }
+
+    .Input textarea {
+        font-size: 0.8em;
+    }
+}

@@ -1,0 +1,45 @@
+.ArticlesProfile h1 {
+    font-size: 32px;
+}
+
+.ArticlesProfile ul {
+    margin: 0;
+    padding: 0;
+
+    list-style: none;
+}
+
+.ArticlesProfile ul li {
+    border-bottom: 1px solid #ccc;
+}
+
+.ArticlesProfile img {
+    float: left;
+    max-width: 150px;
+    height: auto;
+    padding: 0 10px 10px 0;
+}
+
+.ArticlesProfile .links {
+    text-align: right;
+    margin-bottom: 18px;
+}
+
+.ArticlesProfile span.linkReadPost {
+    text-align: right;
+}
+
+.ArticlesProfile span a {
+    display: inline;
+    padding: 10px;
+    margin: 2px;
+    min-width: 100px;
+    background: #2b2b2b;
+    color: #fff;
+    text-decoration: none;
+    text-align: right;
+}
+
+.ArticlesProfile .clear {
+    clear: both;
+}

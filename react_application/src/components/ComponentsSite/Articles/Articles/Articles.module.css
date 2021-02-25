@@ -1,0 +1,37 @@
+.Articles h1 {
+    font-size: 32px;
+}
+
+.Articles ul {
+    margin: 0;
+    padding: 0;
+
+    list-style: none;
+}
+
+.Articles ul li {
+    border-bottom: 1px solid #ccc;
+}
+
+.Articles img {
+    float: left;
+    max-width: 150px;
+    height: auto;
+    padding: 0 10px 10px 0;
+}
+
+.Articles p.linkReadPost {
+    text-align: right;
+}
+
+.Articles p a {
+    padding: 10px;
+    min-width: 100px;
+    background: #2b2b2b;
+    color: #fff;
+    text-decoration: none;
+}
+
+.Articles .clear {
+    clear: both;
+}

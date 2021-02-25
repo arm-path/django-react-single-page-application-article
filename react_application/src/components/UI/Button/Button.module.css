@@ -1,0 +1,60 @@
+.Button {
+    display: inline-block;
+    padding: 1.5% 5%;
+    margin: 0.2rem;
+
+    font-size: 1em;
+    text-transform: uppercase;
+
+    border-radius: 0.3em;
+    box-shadow: 0.2em 0.2em 0.2em rgba(0, 0, 0, .50);
+
+    cursor: pointer;
+}
+
+.Button:focus {
+    outline: none;
+}
+
+.Button:active {
+    box-shadow: inset 0.2rem 0.2rem 0.2rem rgba(0, 0, 0, .3);
+}
+
+.Button:disabled {
+    background-color: #797979;
+
+    cursor: not-allowed;
+}
+
+.dark {
+    background-color: #2b2a29;
+    color: #ffffff;
+}
+
+.dark:hover {
+    background-color: #444341;
+}
+
+.block{
+    width: 100%;
+}
+
+@media (max-width: 1000px) {
+    .Button {
+        display: block;
+        margin: 0.6rem auto;
+        font-size: 1.2em;
+    }
+}
+
+@media (max-width: 800px) {
+    .Button {
+        font-size: 1em;
+    }
+}
+
+@media (max-width: 550px) {
+    .Button {
+        font-size: 0.8em;
+    }
+}

@@ -1,0 +1,15 @@
+.DetailArticle {
+
+}
+
+.DetailArticle h2 {
+    margin-bottom: 5px;
+}
+
+.DetailArticle p img {
+    float: left; /* Выравнивание по левому краю */
+    margin-right: 15px;
+    margin-bottom: 15px;
+    max-width: 350px;
+    max-height: 800px;
+}
